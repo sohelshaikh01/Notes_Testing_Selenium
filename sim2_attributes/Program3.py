@@ -1,4 +1,4 @@
-# 2.3 - 30-07-2026
+# Get Attribute 2.3 - 30-07-2026
 
 # get_attribute()
 # ● Fetches value of attribute for given web element
@@ -8,8 +8,8 @@
 # If attribute is boolean, then it returns as true or null
 # If no attribute then it returns null
 
-
-from selenium import webdriver # get_attribute #
+# GET ATTRIBUTE #
+from selenium import webdriver 
 from selenium.webdriver.common.by import By
 
 

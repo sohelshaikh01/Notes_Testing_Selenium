@@ -3,7 +3,8 @@
 
 # Dropdown handling can be done by 5 different approaches.
 
-from selenium import webdriver  # MULTI-SELECT DROPDOWN #
+# MULTI-SELECT DROPDOWN #
+from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 import time
@@ -26,7 +27,7 @@ time.sleep(5)
 
 all_selected_opt_list = multi_select.all_selected_options
 for opt in all_selected_opt_list:
-   print(opt.text)
+    print(opt.text)
 time.sleep(3)
 
 multi_select.deselect_by_index(0)

@@ -1,6 +1,8 @@
 # Radion Buttion 4.2 - 04-08-2026
+# --incomplete
 
-from selenium import webdriver # TEXTBOX + RADIO BUTTON #
+# TEXTBOX + RADIO BUTTON #
+from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -38,14 +40,12 @@ year.send_keys("2000")
 print("Date Filled...")
 time.sleep(3)
 
-gender_male = wait.until(EC.presence_of_element_located((By.XPATH, 
-"//input[@value='2']")))
-gender_female = wait.until(EC.presence_of_element_located((By.XPATH, 
-"//input[@value='1']")))
-gender_custom = wait.until(EC.presence_of_element_located((By.XPATH, 
-"//input[@value='-1']")))
+gender_male = wait.until(EC.presence_of_element_located((By.XPATH, "//input[@value='2']")))
+gender_female = wait.until(EC.presence_of_element_located((By.XPATH, "//input[@value='1']")))
+gender_custom = wait.until(EC.presence_of_element_located((By.XPATH, "//input[@value='-1']")))
 
 gender_male.click()
+print("Gender Selected...")
 time.sleep(3)
 
 sign_up_button = wait.until(EC.element_to_be_clickable((By.NAME, "websubmit")))

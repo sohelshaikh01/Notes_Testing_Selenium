@@ -1,6 +1,7 @@
-# 2.2 - 30-07-2026
+# Trying with invalid xpath 2.2 - 30-07-2026
 
-from selenium import webdriver  # TRY WITH INVALID XPATH #
+# TRY WITH INVALID XPATH #
+from selenium import webdriver  
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC

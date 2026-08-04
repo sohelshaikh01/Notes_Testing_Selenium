@@ -1,7 +1,8 @@
 # Using Checkbox Attribute 3.1 - 31-07-2026
 # Page Start 86
 
-from selenium import webdriver # CHECKBOX #
+# CHECKBOX #
+from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 

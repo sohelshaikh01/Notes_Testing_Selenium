@@ -2,7 +2,8 @@
 # Most questions asked from Dropdown
 # Select and Deselect Methods
 
-from selenium import webdriver # DROPDOWN #
+# DROPDOWN #
+from selenium import webdriver 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 # Need to import Select class to use Dropdown

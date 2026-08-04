@@ -1,7 +1,8 @@
-# Get Attribute 2.1 - 30-07-2026
+# Get Attribute Waiting 2.1 - 30-07-2026
 # Page Start 76
 
-from selenium import webdriver   # WAITS #
+# WAITS #
+from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
