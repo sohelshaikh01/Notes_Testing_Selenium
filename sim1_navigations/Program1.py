@@ -20,11 +20,14 @@ search_txtbox = driver.find_element(By.XPATH, "//input[@name='q']")
 # search_txtbox = driver.find_element(By.XPATH, "//input[@name='superman']")
 
 print("Type of search_txtbox =>", type(search_txtbox))
+time.sleep(3)
 
 search_txtbox.send_keys('Iphone 17 Pro Max')
 search_txtbox.send_keys(Keys.ENTER)
 
-time.sleep(60)
+# quit driver
+time.sleep(10)
+driver.quit()
 
 # Error: 
 # NoSuchElementException: If element not found

@@ -39,7 +39,7 @@ dropdown.select_by_index(1)
 time.sleep(3)
 
 dropdown.deselect_by_visible_text("Option 1") # error ?   
-dropdown.deselect_all()        # error ?  
+dropdown.deselect_all()       # error ?  
 
 driver.quit()
 
