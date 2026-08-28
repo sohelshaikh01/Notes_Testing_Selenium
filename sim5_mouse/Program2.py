@@ -9,7 +9,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
-import time
 driver = webdriver.Chrome()
 driver.set_page_load_timeout(20)
 driver.maximize_window()
